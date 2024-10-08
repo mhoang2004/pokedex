@@ -1,0 +1,29 @@
+.pokemon-name {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    display: inline-block;
+}
+
+.pokemon-card {
+    cursor: pointer;
+    width: 9rem;
+    height: 9rem;
+    background: #fff;
+}
+
+.gradient-custom-3 {
+    background: #84fab0;
+    background: -webkit-linear-gradient(
+        to right,
+        rgba(132, 250, 176, 0.5),
+        rgba(143, 211, 244, 0.5)
+    );
+    background: linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5));
+    min-height: 100vh;
+}
+
+.m-6 {
+    margin-top: 70px;
+}

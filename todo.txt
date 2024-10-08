@@ -1,0 +1,12 @@
+layout (navbar)
+finished detail page
+
+login vs register 
+if login -> logout
+else login or register
+
+
+filter by: fire, water, normal / abilities
+top pokemon: highgest, weightest
+
+fix pokemon

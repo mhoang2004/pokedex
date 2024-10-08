@@ -1,0 +1,88 @@
+/* path {
+    color: var(--bs-dark);
+} */
+.popup-content.bg-dark-content path {
+    color: var(--bs-dark);
+}
+
+.cursor {
+    cursor: pointer;
+    user-select: none;
+}
+
+.chevron-right {
+    font-size: 60px;
+}
+
+/* colors */
+.normal {
+    background: rgb(164 172 175);
+}
+
+.fighting {
+    background: rgb(213 103 35);
+}
+
+.flying {
+    border: 1px solid;
+}
+
+.poison {
+    background: rgb(185 127 201);
+}
+
+.ground {
+    background: rgb(171 152 66);
+}
+
+.rock {
+    background: #b4b3aa;
+}
+
+.bug {
+    background: rgb(114 159 63);
+}
+
+.ghost {
+    background: rgb(123 98 163);
+}
+
+.steel {
+    background: rgb(158 183 184);
+}
+
+.fire {
+    background: rgb(253 125 36);
+}
+
+.water {
+    background: rgb(69 146 196);
+}
+
+.grass {
+    background: rgb(155 204 80);
+}
+
+.electric {
+    background: rgb(238 213 53);
+}
+
+.psychic {
+    background: rgb(243 102 185);
+}
+
+.ice {
+    background: rgb(81 196 231);
+}
+
+.dragon {
+    background: rgb(241 110 87);
+}
+
+.dark {
+    background: rgb(112 112 112);
+}
+
+.fairy {
+    background: rgb(253 185 233);
+}

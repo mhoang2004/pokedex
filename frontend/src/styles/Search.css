@@ -1,0 +1,31 @@
+.custom-search-form input {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.custom-search-form button {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+    width: 15%;
+}
+
+input:focus + button {
+    box-shadow: 0 -0.25rem 0 rgba(13, 253, 29, 0.5),
+        /* Top shadow */ 0 0.25rem 0 rgba(13, 253, 29, 0.5),
+        /* Bottom shadow */ 0.25rem 0 0 rgba(13, 253, 29, 0.5); /* Right shadow */
+
+    font-weight: bold;
+}
+
+@media (max-width: 480px) {
+    .custom-search-form button {
+        width: 30%;
+    }
+}
